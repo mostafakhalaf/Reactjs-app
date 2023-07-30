@@ -34,10 +34,13 @@ export default class Header extends React.Component {
           <br></br>
           age {this.age}
         </div>
-        <button onClick={() => {this.changeName("Ahmed")}}>
+        <button onClick={() => {this.changeName("mostafa khalaf mohamed")}}>
           Chang name
         </button>
-        <Link/>
+        <Link url="htttp://www.facebook.com" name="facebook"/>
+        <Link url="htttp://www.linkedin.com" name="linkedin"/>
+        <Link url="htttp://www.google.com" name="google"/>
+        <Link url="htttp://www.yahoo.com" name="yahoo"/>
       </>
     );
   }ks

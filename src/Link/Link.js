@@ -1,14 +1,9 @@
-export default function Link() {
+ const Link=(props) =>{
   return (
     <>
-      <a href="htttp://www.facebook.com">facebook</a>
-      <br></br>
-      <a href="htttp://www.linkedin.com">linkedin</a>
-      <br></br>
-      <a href="htttp://www.youtube.com">youtube</a>
-      <br></br>
-      <a href="htttp://www.google.com">google</a>
+      <a href={props.url}>{props.name}</a>
       <br></br>
     </>
   );
 }
+export default Link;
