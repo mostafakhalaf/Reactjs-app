@@ -1,3 +1,4 @@
+ //function component
  const Link=(props) =>{
   return (
     <>
