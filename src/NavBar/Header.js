@@ -9,7 +9,7 @@ import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
 import header from "./Header.css";
 import Link from "../Link/Link";
-//class component
+//class component it befor version 16.8 used because of lifecucle and state
 export default class Header extends Component {
   //order of life cycle
   //1-constructore 2-render 3-componentDidMount 4-componentDidupdate 5-componentWillUnmount

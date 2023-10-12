@@ -1,4 +1,5 @@
  //function component
+ //props to send data from parent to child
  const Link=(props) =>{
   return (
     <>
